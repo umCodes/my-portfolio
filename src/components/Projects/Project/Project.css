@@ -1,0 +1,61 @@
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;  
+    min-height: 100vh;
+}
+
+
+.project iframe{
+    border-radius: 16px;
+    border: none;
+
+
+
+}
+
+
+.project blockquote{
+    max-width: 460px;
+}
+
+.project blockquote h2{
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    transition: color 1s ease-in-out;
+
+}
+
+
+.project blockquote h2:hover{
+    color: var(--accent-color);
+}
+.project blockquote a{
+    color: #fff;
+
+}
+
+.project blockquote p a{
+    color: var(--accent-color);
+    text-decoration: underline;
+} 
+
+.calculator{
+    width: 390px;
+    height: 410px;
+    transform: scale(.8);
+
+}
+
+.mobile{
+    transform: scale(.7);
+    width: 390px;
+    height: 844px; 
+    
+}
+
+.desktop{
+    width: 1366px;
+    height: 784px; 
+}

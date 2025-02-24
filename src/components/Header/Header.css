@@ -1,0 +1,62 @@
+@import url('..//../index.css');
+
+.header{
+    display: flex;
+    justify-content: space-between; 
+       
+    
+}
+
+.header .logo{
+    font-size: 3rem;
+    padding: 1rem;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header nav{
+    margin: .5rem 0;
+}
+
+.header nav .nav-btn{
+    margin: .5rem 0;
+    padding-inline: .8rem;
+    text-align: right;
+    border-right: 0 solid;
+    transition: border-right .350s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+.header nav #about.show-about{
+    border-right: 8px solid var(--accent-color);
+    font-weight: bold;
+}
+
+.header nav #projects.show-projects{
+    border-right: 8px solid var(--accent-color);
+    font-weight: bold;
+}
+
+.header nav #contact.show-contact{
+    border-right: 8px solid var(--accent-color);
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 1441px) {
+    .header{
+        position: fixed;
+        width: 85vw;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}

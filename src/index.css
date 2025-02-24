@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    background-color: #030d07;
+    color: #fff;
+    font-family: "Roboto Mono", serif;
+
+
+    --primary-color: #030d07;
+    --accent-color: #81d79c;
+}
+
+
+#root{
+  
+  max-width: 1200px;
+  justify-self: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1441px) {
+  
+  #root{        
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    max-width: 1200px;
+  }
+}

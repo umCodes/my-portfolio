@@ -1,0 +1,35 @@
+.background{
+    margin-left: 3rem;
+    height: 100vh;
+}
+
+.background .info{
+    border-left: solid;
+    margin: 1rem;
+    padding-left: 2rem;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+
+}
+
+.background .info::after{
+    content: '';
+    border: solid;
+    padding: .6rem;
+    width: fit-content;
+    background-color: #fff;
+    position: absolute;
+    left: -0.8rem;
+}
+
+.background .info p,
+.background .info h3{
+    margin: 4px;
+}
+
+.background .info p{
+    color: #ffffffae;
+}

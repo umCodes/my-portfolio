@@ -1,0 +1,101 @@
+
+.form{
+    transform: scale(85%);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 12px 20px;
+    background-color: rgba(58, 58, 58, 0.422);
+    border-radius: 12px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 3px rgb(0, 0, 0);
+
+}
+
+form .form-element{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+form .form-element.sm{
+    margin: 12px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+form .form-element .social-media{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+    margin-inline: 1rem;    
+}
+
+
+form .form-element .social-media a{
+    color: white;    
+    transition: color .350s ease;
+}
+
+
+form .form-element .social-media a:hover{
+    color: var(--accent-color);
+}
+form .form-element button{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--accent-color);
+    background: none;
+    color: #fff;
+    font-family: "Roboto Mono", serif;
+    transition: background-color .350s ease ;
+    cursor: pointer;
+}
+
+form .form-element button:hover{
+    background-color: var(--accent-color);
+}
+
+.form-element label{
+    margin: 8px 0;
+}
+
+.form-element input,
+.form-element textarea{
+    padding: 12px;
+    margin: 4px;
+    border-radius: 8px;
+    border: 1px solid;
+    width: 300px;
+
+}
+
+@media screen and (max-width: 420px){
+    .form{
+        background-color: rgba(58, 58, 58, 0);
+        width: 100vw;
+       justify-content: center;
+        border-radius: 0;
+        box-shadow: none;
+    }   
+
+    form{
+        background: none;
+        box-shadow: none;
+    }
+
+    form .form-element button{
+        background-color: var(--accent-color);
+        font-size: 1rem;
+    }
+}

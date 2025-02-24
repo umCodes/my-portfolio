@@ -1,0 +1,45 @@
+@import url('../../../index.css');
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero .hero-text{
+    max-width: 440px;
+    margin: 0 2rem;
+
+}
+.hero .hero-text h1 u{
+    text-decoration-color: var(--accent-color);
+}
+
+.hero .hero-skills{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    gap: 1rem;
+    margin: auto .5rem;
+    margin-bottom: auto;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    
+    .hero{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero .hero-skills{
+        flex-direction: row;
+        margin: 0;
+    }
+}
+
