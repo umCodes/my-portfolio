@@ -1,10 +1,11 @@
-Portfolio
+# Portfolio
 
-A personal portfolio website built with React.
+A personal portfolio website built with **React**.
 
-Live Site
+[Live Site](https://your-portfolio-link.com)
 
-To run locally:
+## Run Locally
 
+```bash
 npm install
 npm start
