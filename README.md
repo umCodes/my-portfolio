@@ -2,7 +2,7 @@
 
 A personal portfolio website built with **React**.
 
-[Live Site](https://your-portfolio-link.com)
+[Live Site](https://umCodes.github.io/my-portfolio)
 
 ## Run Locally
 
